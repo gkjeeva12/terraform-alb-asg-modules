@@ -1,0 +1,17 @@
+aws_region   = "ap-south-1"
+project_name = "alb-asg-project"
+
+vpc_id = "vpc-REPLACE_ME"
+
+public_subnet_ids = [
+  "subnet-PUBLIC1_REPLACE",
+  "subnet-PUBLIC2_REPLACE"
+]
+
+private_subnet_ids = [
+  "subnet-PRIVATE1_REPLACE",
+  "subnet-PRIVATE2_REPLACE"
+]
+
+ami_id        = "ami-REPLACE_ME"
+instance_type = "t3.micro"
